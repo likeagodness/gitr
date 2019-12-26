@@ -15,27 +15,23 @@ int main()
 	switch (b)
 	{
 	case 1:
-		// Сумма
 		cout << "введите a и b" << endl;
 		cin >> c >> d;
 		cout << MySum(c, d) << endl;
 		break;
 	case 2:
-		// Вычитание
 		cout << "введите a и b" << endl;
 		cin >> c >> d;
 
 		cout  << MySub(c, d) << endl;
 		break;
 	case 3:
-		// умножение
 		cout << "введите a и b" << endl;
 		cin >> c >> d;
 
 		cout << MyMul(c, d) << endl;
 		break;
 	case 4:
-		// деление
 		cout << "введите a и b" << endl;
 		cin >> c >> d;
 		cout << MyDiv(c, d) << endl;
