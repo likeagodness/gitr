@@ -15,20 +15,29 @@ int main()
 	switch (b)
 	{
 	case 1:
-		// Здесь будет код
-		
+		cout << "введите a и b" << endl;
+		cin >> c >> d;
+		cout << MySum(c, d) << endl;
+		break;
 	case 2:
-		// Здесь будет код
-		
+		cout << "введите a и b" << endl;
+		cin >> c >> d;
+
+		cout  << MySub(c, d) << endl;
+		break;
 	case 3:
-		// Здесь будет код
-		
+		cout << "введите a и b" << endl;
+		cin >> c >> d;
+
+		cout << MyMul(c, d) << endl;
+		break;
 	case 4:
-		// Здесь будет код
-		
+		cout << "введите a и b" << endl;
+		cin >> c >> d;
+		cout << MyDiv(c, d) << endl;
+		break;
 
 	}
 	system("pause");
 	return 0;
 }
-
